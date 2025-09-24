@@ -1,4 +1,4 @@
-# This repository implements a stock forecasting pipeline for **Bank Central Asia (BBCA.JK)** using **LSTM** and heuristic scoring as described in the research paper.
+# This repository implements a stock forecasting pipeline for **Bank Central Asia (BBCA.JK)** using **LSTM**.
 
 ## 🚀 Project Overview
 - **Objective**: Predict **daily return (DR)** of BBCA based on 3-day historical windows.

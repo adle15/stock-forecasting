@@ -56,11 +56,11 @@
     - Test  -> MAE: 1.2364, RMSE: 1.5170, DirAcc: 28.57%
 
 Example results:
-**This image is the result for train, validation, and test set.**
+**- This image is the result for train, validation, and test set.**
 
 <img width="1154" height="547" alt="image" src="https://github.com/user-attachments/assets/83abab6d-8482-4dc2-97fd-155090c8f392" />
 
-**This image is the result of predicted value on 10-19 September 2025 and comparison between actual value.**
+**- This image is the result of predicted value on 10-19 September 2025 and comparison between actual value.**
 
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/712d9fb1-cb1a-4caa-8b66-e0a6a1e71ea8" />
 

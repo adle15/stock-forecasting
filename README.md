@@ -143,7 +143,7 @@
 
 - Optimizer: Adam (lr=0.001)  
 - Loss: MSE  
-- Metrics: MAE, RMSE, Directional Accuracy
+- Metrics: MAE, MSE, MAPE, RMSE, Directional Accuracy
 
 ## 📊 Evaluation
 - **MAE (Mean Absolute Error)**

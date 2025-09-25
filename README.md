@@ -150,9 +150,9 @@
 - **RMSE (Root Mean Squared Error)**
 - **Direction Accuracy** (% correct sign predictions)
 - Performance Metrics:
-    - Train -> MAE: 0.0681, RMSE: 0.0932, DirAcc: 86.16%
-    - Val   -> MAE: 1.2843, RMSE: 1.6685, DirAcc: 48.57%
-    - Test  -> MAE: 1.2364, RMSE: 1.5170, DirAcc: 28.57%
+  - Train -> MAE: 0.0725, MSE: 0.009456990513562235, MAPE: 86081164.06662458, RMSE: 0.0972, DirAcc: 86.16%
+  - Val   -> MAE: 1.3472, MSE: 2.999822019708545, MAPE: 715455216.7352601, RMSE: 1.7320, DirAcc: 53.57%
+  - Test  -> MAE: 1.2804, MSE: 2.4721204293936085, MAPE: 1348897849.831503, RMSE: 1.5723, DirAcc: 42.86%
 
 Example results:
 - **This image is the result for train, validation, and test set.**

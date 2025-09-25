@@ -162,6 +162,22 @@ Example results:
 - **This image is the result of predicted value on 10-19 September 2025 and comparison between actual value.**
 <img width="590" height="390" alt="image" src="https://github.com/user-attachments/assets/dbff606f-14e8-466b-be51-edb3df899d2d" />
 
+## 📌 Conclusions & Next Steps
+
+From our current implementation and replication of the paper:
+
+- ✅ Successfully engineered features (technical indicators, seasonality, sentiment/news proxies) and trained an LSTM-based forecasting model.  
+- ✅ The pipeline reproduces the methodology from the paper, including the use of a heuristic scoring system for evaluation.  
+- ⚠️ However, in this implementation we only used **dummy sentiment/news variables** (generated from returns), not real financial news.  
+  - To fully capture the paper’s intent, future work should integrate **actual news data** (e.g., scraping business headlines, sentiment analysis with NLP).  
+- ⚠️ We also focused only on **one stock (BBCA)** from IDX.  
+  - The paper highlights that better results can be obtained by combining and evaluating across **multiple stocks or indices**, not just a single ticker.  
+
+### Next Steps
+- Integrate **real-world news feeds** and apply NLP-based sentiment scoring.  
+- Extend the dataset to include **multiple companies and indices** for broader applicability.  
+- Perform **backtesting with transaction costs** to validate trading strategy performance.  
+- Explore **alternative architectures** (GRU, Transformer) and longer time windows.  
 
 
 ## 📝 Notes
